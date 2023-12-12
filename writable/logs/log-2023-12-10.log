@@ -1,0 +1,14 @@
+CRITICAL - 2023-12-10 07:14:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\Tareaapi\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\Tareaapi\index.php(30): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-12-10 07:15:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\Tareaapi\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\Tareaapi\index.php(30): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-12-10 00:41:50 --> Call to undefined function App\Controllers\index()
+#0 C:\xampp\htdocs\Tareaapi\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Tareaapi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Tareaapi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Tareaapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
